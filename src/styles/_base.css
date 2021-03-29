@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kiwi+Maru&family=Montserrat&display=swap');
+
+
+
+:root{
+    --dev:rgb(231, 124, 124);
+    --pink:rgb(189, 159, 185);
+    --bluegreen:rgb(76, 170, 146);
+    --greytext:rgb(77, 77, 77);
+    --grey250:rgb(248,248,248);
+    --grey235:rgb(235, 235, 235);
+    --grey220:rgb(220, 220, 220);
+    --grey200:rgb(200, 200, 200);
+    --grey150:rgb(150, 150, 150);
+    
+
+    --mobile-font-size:26px;
+    --mobile-nav:36px;
+
+
+    --laptop-font-size:18px;
+
+    --lobster:  'Montserrat', sans-serif;
+    --kalam: 'Kalam', cursive;
+    --kiwi: 'Kiwi Maru', serif;
+
+
+}

@@ -1,0 +1,64 @@
+
+[
+    {
+      "id": 1,
+      "title": "Bee Lemon Chocolate",
+      "fileName": "cc-bee.jpeg",
+      "price":40,
+      "type":"cupcake"
+    },
+    {
+      "id": 2,
+      "title": "Owl Chocolate",
+      "fileName": "cc-owl.jpeg",
+      "price":50,
+      "type":"cupcake"
+    },
+    {
+      "id": 3,
+      "title": "Galaxy Raspberry",
+      "fileName": "cc-universe.jpeg",
+      "price":40,
+      "type":"cupcake"
+    },
+    {
+      "id": 4,
+      "title": "Covid Cranberry",
+      "fileName": "cc-covid.jpeg",
+      "price":30,
+      "type":"cupcake"
+    },
+    {
+      "id": 5,
+      "title": "Kandinskiy Cake",
+      "fileName": "wc-bauhaus.jpeg",
+      "price":2800,
+      "type":"wedcake"
+    }
+    ,
+    {
+      "id": 6,
+      "title": "Alice in Wonderland",
+      "fileName": "wc-cartoon.jpeg",
+      "price":3000,
+      "type":"wedcake"
+    },
+    {
+      "id": 7,
+      "title": "Teenage love",
+      "fileName": "wc-tree.jpeg",
+      "price":3100,
+      "type":"wedcake"
+    },
+    {
+      "id": 8,
+      "title": "Fromage et vin",
+      "fileName": "wc-french.jpeg",
+      "price":3200,
+      "type":"wedcake"
+    }
+
+    
+
+]
+

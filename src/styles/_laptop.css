@@ -1,0 +1,109 @@
+/* Laptop*/
+
+@media (min-width:1000px) {
+    html {
+        font-size: var(--laptop-font-size);
+    }
+    body {
+        grid-template-rows: 80px 1fr 80px;
+    }
+    header {
+        height: 70px;
+    }
+    .nav-container {
+        grid-template-columns: 80px 1fr 80px;        
+    }
+
+    .nav-container p{
+        font-size: 14px;  
+        text-align: right;      
+        transform: rotate(0deg);
+        
+    }
+    
+    nav {
+        height: 80px;
+        font-size: var(--laptop-font-size);
+        z-index: 900;
+    }
+    .nav-separator {
+        height: 30%;
+    }
+    .logo {
+        height: 50px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    
+    main {
+        background-color: var(--grey250);
+        height: calc(100vh - 156px);
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+   
+    section.home {
+        flex-direction: row;
+        width: 100%;
+    }
+    section.home p {
+        width: 40%;
+        overflow: hidden;
+        text-align: left;
+    }
+    footer {
+        height: 70px;
+        position: unset;
+        align-self: end;
+    }
+    footer a img {
+        width: 40px;
+        margin: 0 10vw;
+        border-radius: 10px;
+    }
+    /* Display product section*/
+    article {
+        margin: 20px 0px;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    article img {    
+        opacity: 0.9;
+        border-radius: 150px;
+
+    }
+    .cupcake {
+            
+        width: 200px;
+        height: 200px;
+        }
+    .wedcake {
+        width: 200px;
+        height: 300px;
+        
+    }
+
+    .price {
+        right: 10%;
+        font-size: 25px;
+    }
+    
+    /* Contact section*/
+    .form-mail input {
+        font-size: var(--laptop-font-size);
+        height: 25px;
+        width: 150px;
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+    ::placeholder, .form-mail input {
+        font-size: var(--laptop-font-size);
+    }
+    textarea {
+        height: 200px;
+    }
+}
